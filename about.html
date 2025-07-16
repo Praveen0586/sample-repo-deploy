@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .left-image{
+      float : left;
+      margin-right : 15px;
+      width :200px;
+      height :auto;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-4">
+      <h1 class="text-xl font-bold">MyPortfolio</h1>
+      <ul class="flex gap-6">
+        <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+        <li><a href="about.html" class="hover:text-blue-600">About Me</a></li>
+        <li><a href="projects.html" class="hover:text-blue-600">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600">Contact</a></li>
+      </ul>
+    </nav>
+
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h2 class="text-3xl font-bold text-blue-700 mb-6">About Me</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        <img src="assets/img1.jpeg" alt="My Photo" class="left-image">
+        Hello! I'm <span class="font-semibold text-blue-600">Durka K S</span>, a passionate
+        <span class="italic">web developer / designer</span> based in Nagercoil.
+        I love creating clean, modern, and responsive websites and applications. With a background in pursing MCA I focus on building solutions that are user-friendly and technically robust.
+      </p>
+      <p class="mt-4 text-gray-700">
+        I enjoy working on both front-end and back-end technologies, and I'm always eager to learn new tools and frameworks to improve my craft. When I'm not coding, you might find me exploring the outdoors, reading tech blogs, or working on side projects.
+      </p>    
+    </div>
+  </section>
+
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-bold text-blue-700 mb-6 text-center">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-white p-4 rounded shadow"><span class="block text-lg font-medium text-gray-800">HTML & CSS</span></div>
+        <div class="bg-white p-4 rounded shadow"><span class="block text-lg font-medium text-gray-800">JavaScript</span></div>
+        <div class="bg-white p-4 rounded shadow"><span class="block text-lg font-medium text-gray-800">Tailwind CSS</span></div>
+        <div class="bg-white p-4 rounded shadow"><span class="block text-lg font-medium text-gray-800">Python</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="mt-6 text-center">
+    <a href="assets/res1.jpeg" download class="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+      📄 Download Resume
+    </a>
+  </div>
+
+  <footer class="bg-white border-t py-6 mt-6">
+    <div class="container mx-auto px-4 text-center text-gray-500">
+      &copy; 2025 Durka Devi K S All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
